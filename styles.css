@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.select-time {
+  margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.select-time.inactive {
+  display: none;
+}
+
+input {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+.inactive.coming-soon {
+  display: none;
+}
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.reveal {
+  width: 400px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* .container-days,
+.container-hours,
+.container-minutes,
+.container-seconds {
+  margin-right: 20px;
+} */
